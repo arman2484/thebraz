@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "url": "app/ecommerce/dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "app-ecommerce-dashboard"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "app-user",
+      "submenu": [
+        {
+          "url": "app/user/list",
+          "name": "List",
+          "slug": "app-user-list"
+        }
+      ]
+    }
+  ]
+}
